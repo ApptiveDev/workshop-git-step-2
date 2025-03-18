@@ -14,20 +14,20 @@
 ## 진행
 ![github-flow](./images/github-flow.png)  
 
-### 1. 이슈 생성
+### 1. ISSUE
 
 - 각 참가자는 calculator.py의 한 함수를 맡아 이슈를 생성합니다.
 - [Issues] -> [New Issue] -> [할일 목록]
 - 제목은 'Calculator - <함수> 꾸현'으로 적습니다.
 - Assignee에 자기 자신을 붙입니다.
 
-### 2. 브랜치 생성 및 Push
+### 2. BRANCH & PUSh
 
 - 모든 참가자는 `step-2/이름/함수명`으로 브랜치를 생성합니다.
 - 로컬에서 구현 후 add, commit, push합니다.
 
 
-### 3. Pull Request 생성
+### 3. PULL REQUEST
 
 - 구현한 함수에 대해 Pull Request를 올립니다.
 - PR 본문에 'close #이슈번호'를 달아 Merge와 동시에 이슈를 닫도록 합니다.
