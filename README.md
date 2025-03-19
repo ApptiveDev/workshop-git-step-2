@@ -7,23 +7,24 @@
 
 ### [사칙연산]
 
-1. 스터디원은 `step-2` 브랜치로부터 자신의 브랜치를 생성합니다.
-2. 스터디원는 자신의 브랜치에서 맡은 기능을 개발하고 `step-2`에 Pull Request를 올립니다.
-3. 실습 후 스터디장은 브랜치를 실습 이전의 상태로 복구합니다.
+1. 스터디원은 `step-2` 템플릿을 활용해 생성한 레포지토리를 자신의 로컬로 Clone합니다.
+2. 스터디원는 main으로부터 자신의 브랜치를 만들고, 맡은 기능을 개발한 뒤 Pull Request를 올립니다.
+3. 실습 후 스터디장은 레포지토리를 삭제합니다.
 
 ## 진행
 ![github-flow](./images/github-flow.png)  
 
 ### 1. ISSUE
 
-- 각 참가자는 calculator.py의 한 함수를 맡아 이슈를 생성합니다.
+- 각 참가자는 calculator.py 내 한 함수를 맡아 이슈를 생성합니다.
 - [Issues] -> [New Issue] -> [할일 목록]
 - 제목은 'Calculator - <함수> 구현'으로 적습니다.
 - Assignee에 자기 자신을 붙입니다.
 
 ### 2. BRANCH & PUSh
 
-- 모든 참가자는 `step-2/이름/함수명`으로 브랜치를 생성합니다.
+- 모든 참가자는 main으로부터 `feat/이슈넘버-이름-함수명`으로 브랜치를 생성합니다.
+- ex) feat/2-GiyunKim-add
 - 로컬에서 구현 후 add, commit, push합니다.
 
 
