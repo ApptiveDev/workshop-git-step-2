@@ -21,11 +21,16 @@
 - 제목은 'Calculator - <함수> 구현'으로 적습니다.
 - Assignee에 자기 자신을 붙입니다.
 
-### 2. BRANCH & PUSh
+### 2. BRANCH
 
 - 모든 참가자는 main으로부터 `feat/이슈넘버-이름-함수명`으로 브랜치를 생성합니다.
-- ex) feat/2-GiyunKim-add
-- 로컬에서 구현 후 add, commit, push합니다.
+  - ex) feat/2-GiyunKim-add
+- 이후 생성한 브랜치로 이동합니다.
+
+### 3. ADD, COMMIT, PUSH
+
+- 모든 참가자는 생성한 브랜치에서 함수를 구현하고, ADD 및 COMMIT 합니다.
+- 이후 COMMIT을 원격 리포지토리에 PUSH 합니다.
 
 
 ### 3. PULL REQUEST
@@ -33,10 +38,10 @@
 - 구현한 함수에 대해 Pull Request를 올립니다.
 - PR 본문에 'close #이슈번호'를 달아 Merge와 동시에 이슈를 닫도록 합니다.
 
-### 4. MERGE
+### 5. MERGE
 
 - 조장은 PR을 리뷰한 후 머지(MERGE)합니다.
 
-### 5. PULL
+### 6. PULL
 - 모든 참가자는 최신 레포지토리를 로컬로 불러와(PULL) 변경내역을 확인합니다.
 
