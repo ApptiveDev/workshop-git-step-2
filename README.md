@@ -33,7 +33,7 @@
 - 이후 COMMIT을 원격 리포지토리에 PUSH 합니다.
 
 
-### 3. PULL REQUEST
+### 4. PULL REQUEST
 
 - 구현한 함수에 대해 Pull Request를 올립니다.
 - PR 본문에 'close #이슈번호'를 달아 Merge와 동시에 이슈를 닫도록 합니다.
